@@ -1,0 +1,20 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "2.16.1",
+    "colors": "^1.4.0",
+    "commander": "^2.15.1",
+    "dotenv": "^10.0.0",
+    "lodash": "latest",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.1.0",
+    "randomstring": "^1.2.1"
+  }
+}
